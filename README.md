@@ -34,10 +34,10 @@ end)
     svelte_export data/mycomponent.txt mycomponent.export
 ```
 
-### Rendering
+## Rendering
 **NOTE**: This section will only cover the Lua side of this framework. If you wish learn how to use Svelte, use Svelte's official [Guide](https://svelte.technology/guide)!
 
-#### How to use
+### How to use
 Simply ``include`` the ``svelte.lua`` Lua file and call the API detailed below. This guide assumes you're famailar with VGUI Panels.
 
 #### API
@@ -118,13 +118,13 @@ Simply ``include`` the ``svelte.lua`` Lua file and call the API detailed below. 
     release() -- Releases the event listener
 ```
 
-### Compiling the framework
+## Compiling the framework
 If you want to compile from source, simply call ``bin/build`` from a terminal. Although to start the process, you need these requirements:
 * [luvit](https://luvit.io/) - ``luvit`` must be searchable in ``PATH``
 * [moonscript](http://moonscript.org) - ``moonc`` must be searchable in ``PATH``
 * [luamin](https://github.com/mathiasbynens/luamin) - ``luamin`` must be searchable in ``PATH``
 * [minify](github.com/coderaiser/minify) - ``minify`` must be searchable in ``PATH``
 
-### License
+## License
 
 [MIT](LICENSE)
