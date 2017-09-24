@@ -20,11 +20,6 @@ Simply ``include`` the ``compiler.lua`` Lua file and call the API. Or alternativ
 * ``void compile(string source, function callback)`` - Submits the script 'source' to the Svelte compiler
 ---
 ```lua
---[[
-    Compiler API:
-        
-]]
-
 local compiler = include("compiler.lua")                        -- Include the compiler
 compiler.compile([[<h1>{{text}}</h1>]], function (compiled)     -- Compile a Svelte component
     print(compiled)
