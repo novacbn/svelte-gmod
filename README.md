@@ -11,7 +11,7 @@ This is the Svelte framework integrated with [Garry's Mod by Facepunch Studios](
 ## Compiler
 **NOTE**: As of this moment, the compiler only runs in the ``dev`` branch of Garry's Mod running on Chromium! Normal Garry's Mod will not work!
 
-**NOTE**: While you can design your workflow around using this svelte-gmod to compiler your components, if your need anything more advanced check out the rest of the Svelte ecosystem!
+**NOTE**: While you can design your workflow around using this svelte-gmod to compiler your components, if you need anything more advanced check out the rest of the Svelte ecosystem!
 
 ### How to use
 Simply ``include`` the ``compiler.lua`` Lua file and call the API. Or alternatively, run file and use the ``svelte_export`` console command.
